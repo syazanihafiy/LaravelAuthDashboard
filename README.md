@@ -12,10 +12,10 @@ This is a Laravel-based project that demonstrates user authentication, displayin
 
 ## Screenshots
 
-## 1. Login Page
+### 1. Login Page
 ![image](https://github.com/user-attachments/assets/bf4cc106-0b6d-4846-bed2-1ba0678f3c74)
 
-## 2. Dashboard Page
+### 2. Dashboard Page
 ![image](https://github.com/user-attachments/assets/7ee8f788-5719-462c-8160-47286937d457)
 
 
