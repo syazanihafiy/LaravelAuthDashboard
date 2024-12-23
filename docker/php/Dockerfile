@@ -5,7 +5,7 @@ RUN apt-get update && apt-get install -y \
     curl \
     git \
     libfreetype6-dev \
-    libfreetype6-dev \
+    libjpeg-dev \           
     libonig-dev \
     libpng-dev \
     libxml2-dev \
