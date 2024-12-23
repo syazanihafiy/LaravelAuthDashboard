@@ -10,6 +10,37 @@ This is a Laravel-based project that demonstrates user authentication, displayin
 
 ---
 
+## Installation Instructions
+
+### 1. Clone the repository:
+```
+git clone https://github.com/syazanihafiy/laravel-auth-dashboard.git
+cd laravel-auth-dashboard
+```
+
+### 2. Set up environment variables
+Go to (../laravel-auth-dashboard/src)
+```
+cp .env.example .env
+```
+
+### 3. Build and start the Docker containers
+Go to (../laravel-auth-dashboard/docker)
+```
+docker-compose up --build -d
+```
+
+### 4. Install Composer dependencies
+```
+docker exec -it laravel_app bash
+composer install
+php artisan key:generate
+exit
+```
+
+### 5. Access the application
+Access the application via http://localhost:8000
+
 ## Screenshots
 
 ### 1. Login Page
